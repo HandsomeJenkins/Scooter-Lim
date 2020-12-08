@@ -1,0 +1,56 @@
+body{
+  background-image: url("background.jpg");
+  background-size: 100%;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+*{
+  margin:5px 0px 0px;
+}
+.contenitore{
+  margin: auto;
+  width: 1100px;
+  padding: 70px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+nav{
+  text-align: center;
+}
+nav > img{
+  width: 200px;
+}
+nav > h1{
+  color:lime;
+  font-size: 40px;
+}
+nav section{
+  background-color: lime;
+  padding: 10px;
+}
+section h2 {
+  display: inline-block;
+  margin-top: 30px;
+}
+section span{
+  display: block;
+}
+section span:first-of-type:before{
+  content:"\21a6";
+}
+section div{
+  height: 30px;
+  border-radius: 5px;
+}
+#primo{
+  background-color: rgb(227, 179, 91);
+  width: 40%;
+}
+#secondo{
+  background-color: rgb(80, 209, 63);
+  width: 70%;
+}
+#terzo{
+  background-color: rgb(191, 54, 38);
+  width: 20%;
+}
